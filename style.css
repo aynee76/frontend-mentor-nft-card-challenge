@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+body{
+    background-color:  hsl(216, 50%, 16%);
+    
+}
+main{
+    margin: auto;
+    width: 1440px;
+    height: 1000px;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    padding-top: 50px;
+    
+    
+}
+.eye{
+    visibility: hidden;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    height: 300px;
+    border-radius: 16px;
+background-image: url("images/image-equilibrium.jpg");
+background-position: center;
+background-size: cover; 
+}
+
+div.img-section:hover{
+    width: 90%;
+    margin: 20px auto;
+    height: 300px; 
+background: url("images/image-equilibrium.jpg") hsl(178, 100%, 50%);
+background-blend-mode: lighten;
+background-position: center;
+background-size: cover;
+opacity: 70%;
+}
+div.img-section:hover .eye{
+    visibility: visible;
+}
+#mobile{
+    margin: 100px auto;
+    width: 350px;
+    height: 570px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 16px;
+    padding: 5px;
+    font-family: outfit;
+    box-shadow: 10px 20px 8px 10px hsl(214, 58%, 8%);
+    }
+.wrapper{
+    padding: 0 20px;
+}
+img#fim{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+img#fim:hover{
+    background-color: hsl(178, 100%, 50%);
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: hsl(215, 32%, 27%);
+    margin: 20px 0;
+}
+p{
+    font-size: 18px;
+    font-family: outfit;
+
+}
+.fp{
+    font-weight: 600;
+}
+.fp:hover{
+    color: hsl(178, 100%, 50%)
+}
+.sp{
+    color:hsl(215, 51%, 70%);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 16px;
+    }
+.icontag{
+    display: flex;
+    align-items: center;
+}
+.icontag span{
+    margin-left: 5px;
+}
+.icontag:first-child span{
+    color: hsl(178, 100%, 50%);
+}
+.icontag:last-child span{
+    color: hsl(215, 51%, 70%)
+}
+.avatar{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30px;
+    align-items: center;
+    justify-content: left;
+    }
+
+    .avatar p{
+        margin-left: 10px;
+    }
+
+    .avatar p span:first-child{
+        color: hsl(215, 51%, 70%)
+    }
+
+
+    .avatar p span:last-child:hover{
+        color:hsl(178, 100%, 50%)
+    }
+
+    @media screen and (max-width: 375px) {}
