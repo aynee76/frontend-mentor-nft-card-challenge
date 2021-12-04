@@ -2,33 +2,87 @@
 
 You can use the [editor on GitHub](https://github.com/aynee76/frontend-mentor-nft-card-challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!DOCTYPE html>
+<html lang="en">
 
-### Markdown
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | NFT preview card component</title>
 
-```markdown
-Syntax highlighted code block
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit">
 
-# Header 1
-## Header 2
-### Header 3
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
 
-**Bold** and _Italic_ and `Code` text
+<body>
 
-[Link](url) and ![Image](src)
-```
+  Equilibrium #3429
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+  Our Equilibrium collection promotes balance and calm.
 
-### Jekyll Themes
+  0.041 ETH
+  3 days left
+
+  Creation of Jules Wyvern
+
+  <!--start-->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">zainab Abdulmumin</a>.
+  </div>
+
+  <!--nft starts here-->
+  <main>
+    <div id="mobile">
+      <div class="img-section">
+        <div class="eye"><img src="images/eye-fill.svg" alt="">
+        </div>
+      </div>
+      <!--paragraphs-->
+      <div class="wrapper">
+        <div>
+          <p class="fp">Equilibrum #3429</p>
+          <p class="sp">Our Equilibrum collection promotes balance and calm</p>
+        </div>
+        <!--icons here-->
+        <div class="icons">
+          <div class="icontag"><img src="images/icon-ethereum.svg"> <span>0.041ETH</span>
+          </div>
+          <div class="icontag"><img src="images/icon-clock.svg">
+            <span>3 days left</span>
+          </div>
+          <!--line here-->
+        </div>
+        <div class="line">
+        </div>
+        <!--avatar here-->
+        <div class="avatar">
+          <img src="images/image-avatar.png" class="avatar">
+          <p><span>Creation of</span> <span>Jules Wyvern</span></p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aynee76/frontend-mentor-nft-card-challenge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
